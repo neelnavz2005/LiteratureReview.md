@@ -1,0 +1,190 @@
+# Literature Review
+
+## 1. Keywords for Literature Search
+
+The following keywords were used to guide the literature search:
+
+- Post-Quantum Cryptography (PQC)
+- Hybrid Cryptography
+- Quantum-Resistant Encryption
+- TLS 1.3 Post-Quantum
+- Enterprise File Transfer Security
+- Secure File Transfer Protocol (SFTP)
+- Cryptographic Performance Overhead
+- Lattice-based Cryptography (Kyber)
+- Cryptographic Migration Strategies
+- Quantum Computing Security Threats
+
+Boolean combinations used:
+- "Hybrid Cryptography AND TLS"
+- "Post-Quantum Cryptography AND Performance"
+- "PQC AND Enterprise Systems"
+- "Quantum-resistant AND File Transfer"
+
+---
+
+## 2. Literature Sources, Databases, and Inclusion Criteria
+
+### Academic Databases Used
+The following databases and digital libraries were used:
+
+- IEEE Xplore
+- ACM Digital Library
+- ScienceDirect
+- Google Scholar
+- Semantic Scholar
+- Scopus
+
+### Types of Literature Sources
+- Peer-reviewed journal articles
+- Conference papers
+- Technical reports
+- Standards publications (e.g., NIST)
+
+### Inclusion Criteria
+- Published between 2020–2025
+- Focus on post-quantum or hybrid cryptography
+- Includes performance or security evaluation
+- Relevant to TLS, enterprise systems, or file transfer
+- Peer-reviewed and credible sources
+
+### Exclusion Criteria
+- Non-peer-reviewed articles
+- Outdated cryptographic studies (pre-2018)
+- Papers without experimental or analytical evidence
+
+---
+
+## 3. Selected Articles and Analysis
+
+### Selected Papers
+
+[1] Bhargavan, K. et al., 2024 – Hybrid TLS 1.3  
+[2] IEEE, 2022 – PQC Performance Analysis  
+[3] IEEE, 2022 – Hybrid PQC on Embedded Systems  
+[4] Zafar & Iqbal, 2025 – PQC Integration in TLS  
+[5] NIST Report – PQC Migration Strategies  
+
+---
+
+### Common Themes Across Papers
+
+- Hybrid cryptography is essential for transitioning to quantum-resistant systems [1][3][5]
+- Performance overhead is a major concern when implementing PQC [2][4]
+- Migration strategies must ensure backward compatibility [5]
+- TLS is the primary protocol for implementing PQC in real-world systems [1][4]
+
+---
+
+### Key Findings and Methodologies
+
+#### Paper [1]
+- Method: Experimental TLS implementation
+- Finding: Hybrid TLS provides strong security with minimal latency increase
+
+#### Paper [2]
+- Method: Benchmark testing of PQC algorithms
+- Finding: Significant increase in key size and processing time
+
+#### Paper [3]
+- Method: Embedded system implementation
+- Finding: Hybrid approach reduces computational burden compared to full PQC
+
+#### Paper [4]
+- Method: Protocol-level integration analysis
+- Finding: Hybrid PQC improves compatibility and reduces latency
+
+#### Paper [5]
+- Method: Strategic framework analysis
+- Finding: Gradual migration using hybrid cryptography is recommended
+
+---
+
+### Research Gaps and Unresolved Issues
+
+- Lack of real-world enterprise deployment studies
+- Limited benchmarking for large-scale file transfer systems
+- Uncertainty in long-term security of PQC algorithms
+- Insufficient evaluation in cloud-based environments
+
+---
+
+### Contribution to Research Topic
+
+- **Paper [1]:** Demonstrates practical hybrid cryptography in secure communication
+- **Paper [2]:** Explains performance trade-offs critical for enterprise systems
+- **Paper [3]:** Shows feasibility in constrained environments
+- **Paper [4]:** Supports integration strategies for real-world protocols
+- **Paper [5]:** Provides migration framework for enterprise adoption
+
+These papers collectively help answer the research question by showing that hybrid cryptography improves security while introducing manageable performance overhead.
+
+---
+
+## 4. Literature Review Structure
+
+The literature review is organised as follows:
+
+1. Introduction
+2. Background on Post-Quantum Cryptography
+3. Hybrid Cryptography in Secure Protocols
+4. Performance Evaluation of PQC
+5. Enterprise Migration Strategies
+6. Comparative Analysis of Selected Studies
+7. Research Gaps
+8. Conclusion
+
+---
+
+## 5. Required Sections
+
+### Introduction
+
+The rapid advancement of quantum computing poses a significant threat to traditional cryptographic systems such as RSA and elliptic curve cryptography. Enterprise file transfer systems, which rely heavily on secure communication protocols like TLS and SFTP, are particularly vulnerable to future quantum attacks. Post-quantum cryptography (PQC) has emerged as a solution to this problem; however, its implementation introduces performance and compatibility challenges. Hybrid cryptography, which combines classical and post-quantum algorithms, offers a practical transition strategy. This literature review evaluates existing research on hybrid PQC and its impact on security and performance in enterprise file transfer systems.
+
+---
+
+### Purpose and Aims of the Literature Review
+
+The purpose of this literature review is to analyse current research on hybrid post-quantum cryptography and its application in enterprise systems. The key aims are:
+
+- To evaluate the effectiveness of hybrid cryptography in improving security
+- To analyse the performance impact of PQC algorithms
+- To identify challenges in implementing hybrid cryptography
+- To explore migration strategies for enterprise environments
+- To identify research gaps for future study
+
+---
+
+### Literature Review Process
+
+The literature review followed a structured research methodology:
+
+1. **Keyword Identification**  
+   Relevant keywords related to PQC, hybrid cryptography, and enterprise systems were identified.
+
+2. **Database Search**  
+   Searches were conducted across IEEE Xplore, ACM Digital Library, ScienceDirect, and Google Scholar.
+
+3. **Screening and Selection**  
+   Papers were filtered based on relevance, publication date, and credibility.
+
+4. **Critical Analysis**  
+   Selected papers were analysed for methodology, findings, and contributions.
+
+5. **Synthesis**  
+   Insights from multiple studies were compared to identify trends, gaps, and implications.
+
+---
+
+### References (IEEE Style)
+
+[1] K. Bhargavan et al., "Quantum-resistant TLS 1.3: A hybrid solution combining classical, quantum and post-quantum cryptography," IEEE, 2024.
+
+[2] "Post-quantum cryptography in use: Empirical analysis of the TLS handshake performance," IEEE, 2022.
+
+[3] "Hybrid post-quantum enhanced TLS 1.3 on embedded devices," IEEE, 2022.
+
+[4] A. Zafar and S. S. Iqbal, "Integrating code-based post-quantum cryptography into TLS protocols," Discover Computing, 2025.
+
+[5] National Institute of Standards and Technology (NIST), "Migration to Post-Quantum Cryptography," 2023.
